@@ -30,7 +30,7 @@ var server = app.listen(8081, function () {
   console.log("应用实例，访问地址为 http://%s:%s", host, port)
  
 })
-setInterval(update_data,1000*60)
+setInterval(update_data,1000*60*5)
 
 function update_data(){
     first_item=last_item-9
